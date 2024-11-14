@@ -1,9 +1,9 @@
-package com.formacionbdi.springboot.app.productos.models.dao;
+package com.formacionbdi.springboot.app.productos.models.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
 import com.formacionbdi.springboot.app.productos.models.entity.Producto;
 
-public interface Repositori extends CrudRepository<Producto, Long>{
+public interface Repository extends CrudRepository<Producto, Long>{
 
 }
